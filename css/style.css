@@ -75,6 +75,11 @@ a {
     object-fit: contain;
 }
 
+.logo_title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
 .nav__list {
     display: flex;
 }
@@ -90,6 +95,11 @@ a {
 
 .nav__item:last-child {
     margin-right: 0;
+}
+
+.tel {
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .cart {
@@ -229,4 +239,32 @@ a {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.product__desk {
+    margin-top: 13px;
+}
+
+.size__list {
+    display: flex;
+}
+
+.size__item {
+    margin-right: 25px;
+    margin-top: 13px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;    
+}
+
+.size__item:last-child {
+    margin-right: 0;
+}
+
+.size__button {
+    border: none;
+    background: #FFBF42;
+    border-radius: 50%;
+    width: 100px;
+    height: 39px;
+    display: block;
 }
